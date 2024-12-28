@@ -3,13 +3,13 @@
 <head>
 <style>
 body{
-background-repeat: no-repeat;
+width: 100%;
 background-image: linear-gradient(rgb(153, 25, 237),purple);
 }
 .mbd{
 margin: auto;
+width: 95%;
 height: auto;
-border: 1px solid black;
 padding-bottom: 20px;
 }
 .tp{
@@ -43,7 +43,7 @@ margin: auto;
 background-color: rgb(56, 4, 65);
 position: relative;
 border: 2px solid white;
-height: auto;
+height: 100%;
 margin-top: 40px;
 }
 h1{
@@ -90,6 +90,27 @@ text-decoration: none;
 border-radius: 0.3px;
 box-shadow: 3px 3px 3px black;
 padding: 3PX;
+}
+@media only screen and (max-width:720px) {
+ body{
+width: 90%;
+font-size: 17px;
+ }
+ .price,.prod1 img,.prod1,.promote{
+    width: 90%;
+ } 
+ .products{
+flex-direction:column ;
+width: 100%;
+ }
+ul{
+flex-direction: column;
+width: 90%;
+}
+.mbd{
+width: 100%;
+margin: 0px;
+}
 }
 </style>
     <meta charset="UTF-8">
@@ -142,39 +163,18 @@ padding: 3PX;
 <h1 id="2d">BUY  WOMEN SHOES ONLINE NOW</h1>
 <div class="products">
 <div class="prod1">
-    <img src="16593954_34049333_600.jpg" id="1d">
-    <div class="price">1200TSH.</div>
+    <img src="22242536_52632558_600.jpg" id="1d">
+    <div class="price">1200TSH.<p>jimmy choo-Alia pumps<br><a href="">Shop now</a></p></div>
 </div>
 <div class="prod1">
-    <img src="16593954_34049333_600.jpg" id="1d">
-    <div class="price">1200TSH.</div>
+    <img src="images (22).jpeg" id="1d">
+    <div class="price">1200TSH.<p>varentino Garavani-vlog<br><a href="">Shop now</a></p></div>
 </div>
 <div class="prod1">
-    <img src="16593954_34049333_600.jpg" id="1d">
-    <div class="price">1200TSH.</div>
+    <img src="images (21).jpeg" id="1d">
+    <div class="price">1200TSH.<p>Stuart Weitzman<br><a href="">Shop now</a></p></div>
 </div>
 </div>
 
 
 </div>
-
-
-
-
-
-</div>
-<h1 id="1d">rtfyguhijokl</h1>
- </div>
-
-
- <script>
-function selector(){
-const selement=document.getElementById("link");
-const svlue=selement.value;
-if(svlue){
-window.location.href=svlue;
-}
-}
- </script>
-</body>
-</html>
