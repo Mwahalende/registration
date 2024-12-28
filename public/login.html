@@ -1,0 +1,79 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+form{
+margin: auto;
+margin-top: 1px;
+height: auto;
+width: 100%;
+max-width: 300px;
+text-align: center;
+padding-top: 20px;
+padding-bottom: 20px;
+box-shadow: 2px 1px 3px gray;
+background-color: aliceblue;
+border-radius: 5px;
+border: 0.5px solid blue;
+}
+.one{
+margin: auto;
+height: 500px;
+border-radius: 5px;
+border: 0.5px solid blue;
+width: 100%;
+max-width: 400px;
+background-color:rgb(45, 139, 222);
+}
+h4{text-align: center;}
+input{
+width: 100%;
+height: 30px;
+max-width: 250px;
+margin: 20px;
+border: 0.5px solid blue;
+border-radius: 5px;
+}
+button{
+width: 100%;
+height: 30px;
+max-width:250px ;
+margin-bottom: 10px;
+border-radius: 5px;
+border: 0.5px solid blue;
+}
+h1{
+text-align: center;
+}
+a {
+text-align: center;
+text-decoration: none;
+margin: 10px;
+background-color: aliceblue;
+color: blue;
+}
+</style>
+    <title>Login</title>
+</head>
+<body>
+    <h1>Login</h1>
+<div class="one">
+    <form action="/login" method="POST">
+        <input type="email" name="UserEmail" placeholder="Email" required /><br />
+        <input type="password" name="Password" placeholder="Password" required /><br />
+        <button type="submit">Login</button>
+    </form>
+    <h4><a href="register.html">Don't have an account?</a></h4>
+    <br />
+    <form action="/forgot-password" method="GET">
+        <button type="submit">Forgot Password?</button>
+    </form>
+    <br />
+    <form action="/change-password" method="GET">
+        <button type="submit">Change Password</button>
+    </form>
+
+    </div>
+</body>
+</html>

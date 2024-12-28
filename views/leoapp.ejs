@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<style>
+body{
+background-repeat: no-repeat;
+background-image: linear-gradient(rgb(153, 25, 237),purple);
+}
+.mbd{
+margin: auto;
+height: auto;
+border: 1px solid black;
+padding-bottom: 20px;
+}
+.tp{
+height: auto;
+background-color: aliceblue; 
+margin-top: 0px;
+padding-top: 1px;
+margin-bottom: 0px;
+}
+select{
+text-align: center;
+border: none;
+}
+option {
+}
+ul{
+list-style-type: none;
+}
+ul li{
+display: inline;
+margin: 10px;
+}
+ul a{
+    
+}
+li a{
+text-decoration: none;
+}
+.promote{
+margin: auto;
+background-color: rgb(56, 4, 65);
+position: relative;
+border: 2px solid white;
+height: auto;
+margin-top: 40px;
+}
+h1{
+color: white;
+margin-top: 50px;
+margin-bottom: 70px;
+text-align: center;
+}
+.products{
+margin: auto;
+position: relative;
+display: flex;
+border: 2px solid white;
+height: auto;
+background-color: white;
+}
+.prod1{
+height: 330px;
+width: 100%;
+max-width: 300px;
+background-color: rgba(1, 1, 14, 0);
+border-radius: 4px;
+margin-left: 5px;
+}
+.prod1 img{
+height: 200px;
+width: 100%;
+max-width: 200px;
+border-radius: 4px;
+margin-left: 45px;
+margin-top: 10px;
+}
+.price{
+padding-top: 5px;
+color: rgb(31, 7, 186);
+font-size: 20px;
+text-align: center;
+
+}
+.prod1 a{
+background-color: blue;
+color: aliceblue;
+text-decoration: none;
+border-radius: 0.3px;
+box-shadow: 3px 3px 3px black;
+padding: 3PX;
+}
+</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leo Galaxy</title>
+</head>
+<body>
+ <div class="mbd">
+
+<div class="tp">
+<ul>
+<li>
+<select name="products" size="1" id="link" onchange="selector()">
+<option value="" selected>products</option>
+<option value="#1d" >Men shoes</option>
+<option value="#2d" >Women shoes</option>
+<option value="#1d" >Jens</option>
+<option value="#1d" >Tshirt</option>
+<option value="#1d" >computers</option>
+<option value="#1d" >laptop</option>
+</select></li>
+<li><a href="">Tranding</a></li>
+<li><a href="">shops</a></li>
+<li><a href="">messages</a></li>
+<li><a href="">Join us</a></li>
+<li><a href="">your bussiness</a></li>
+<li><a href="">request</a></li>
+</ul>
+<div class="promote" id="1d">
+<h1>BUY MEN SHOES ONLINE NOW</h1>
+<div class="products">
+<div class="prod1">
+<img src="16593954_34049333_600.jpg" id="1d">
+<div class="price">1200TSH.<p>Jordan-Air<br><a href="">Shop now</a></p></div>
+</div>
+<div class="prod1">
+    <img src="19830660_45184979_600.jpg" id="1d">
+    <div class="price">1200TSH.<p>Jordan-Air<br><a href="">Shop now</a></p></div>
+</div>
+<div class="prod1">
+    <img src="17591346_36940786_600.jpg" id="1d">
+    <div class="price">1200TSH.<p>sebago - classic loafers-men<br><a href="">Shop now</a></p></div>
+</div>
+<div class="prod1">
+    <img src="13364970_15364214_600.jpg" id="1d">
+    <div class="price">1200TSH.<p>Timberland-6Inch<br> <a href="">Shop now</a>
+        <a href="" style="margin-left: 10px;background-color: black;color: aliceblue;">more shoes...</a></p></div>
+    </div>
+</div>
+<h1 id="2d">BUY  WOMEN SHOES ONLINE NOW</h1>
+<div class="products">
+<div class="prod1">
+    <img src="16593954_34049333_600.jpg" id="1d">
+    <div class="price">1200TSH.</div>
+</div>
+<div class="prod1">
+    <img src="16593954_34049333_600.jpg" id="1d">
+    <div class="price">1200TSH.</div>
+</div>
+<div class="prod1">
+    <img src="16593954_34049333_600.jpg" id="1d">
+    <div class="price">1200TSH.</div>
+</div>
+</div>
+
+
+</div>
+
+
+
+
+
+</div>
+<h1 id="1d">rtfyguhijokl</h1>
+ </div>
+
+
+ <script>
+function selector(){
+const selement=document.getElementById("link");
+const svlue=selement.value;
+if(svlue){
+window.location.href=svlue;
+}
+}
+ </script>
+</body>
+</html>
